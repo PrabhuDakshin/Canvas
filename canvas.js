@@ -84,7 +84,7 @@ function Circle(x, y, dx, dy, radius)
 
 var circleArray = [];
 
-for(let i = 1; i<1000; i++ )
+for(let i = 1; i<1800; i++ )
 {
     let radius = Math.random() * 3 +1;
     let x = Math.random() * (innerWidth - 2*radius) + radius;
